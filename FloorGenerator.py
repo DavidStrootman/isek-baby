@@ -19,7 +19,8 @@ class FloorGenerator:
 
     def first_pass(self, room_count):
         self.floor = Floor(self.starting_coordinate)
-        for i in range(room_count):
+        # Add x new rooms - starting room
+        while self.floor.used_coordinates < room_count:
             self.floor.add_room()
 
     def second_pass(self):
