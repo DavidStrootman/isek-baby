@@ -28,11 +28,3 @@ class FloorGenerator:
 
     def third_pass(self):
         return
-
-
-########################################################################################################################
-# max_rooms = 400
-# floorGenerator = FloorGenerator(starting_x=0, starting_y=0, room_count=max_rooms, passes=1)
-# floorGenerator.generate_floor()
-# print(floorGenerator.floor.used_coordinates)
-# print(sys.version)
