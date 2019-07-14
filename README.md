@@ -6,7 +6,4 @@ Binding of Isaac-style dungeon layout generator written in Python
 
 To print a preview, run isek-baby.py in python console
 ## Example
-![output example 1](./docs/images/usage_example_1.png)  
-## Planned updates
-* More room sizes: Xl rooms in different shapes
-* Room types: Boss rooms, special rooms, item rooms, starting room
+![output example 1](./docs/images/usage_example_1.png) 
